@@ -1,0 +1,131 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-color: #efecec;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px #0c2d57 solid;
+}
+.header1 {
+  margin-top: 30px;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Berkshire Swash", serif;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: serif;
+  font-size: 20px;
+}
+.btn {
+  color: #fc6736;
+  font-family: sans-serif;
+}
+.btn:hover {
+  color: #0c2d57;
+}
+.threeboxes {
+  display: flex;
+  justify-content: center;
+}
+.sec {
+  flex: 1;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+}
+.secimp {
+  flex: 2;
+  margin-top: 20px;
+}
+
+.img {
+  height: 200px;
+  padding: 20px;
+}
+#imp {
+  font-size: 49px;
+  font-family: "UnifrakturMaguntia", cursive;
+}
+#fnt {
+  font-family: "Fondamento", cursive;
+  font-family: "Russo One", sans-serif;
+  font-family: "UnifrakturMaguntia", cursive;
+}
+.container2 {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  border: #0c2d57 solid;
+}
+#sec3fnt {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 20px;
+  font-size: 50px;
+}
+.imgsec2 {
+  height: 50px;
+  width: 50px;
+  border-radius: 20px;
+}
+#h33 {
+  font-size: 20px;
+  padding: auto;
+  margin-left: 30px;
+}
+.ir {
+  display: flex;
+  margin-left: 20%;
+}
+.kam {
+  display: flex;
+  margin-left: 8%;
+}
+.irbtn {
+  padding: 5px;
+  margin-top: 10px;
+  background-color: rgb(169, 119, 119);
+  border: #efecec;
+  border-radius: 5px;
+  display: block;
+  margin-left: 30%;
+}
+.irbtn:hover {
+  background-color: rgb(38, 66, 126);
+}
+.kbtn {
+  padding: 5px;
+  margin-top: 10px;
+  background-color: rgb(169, 119, 119);
+  border: #efecec;
+  border-radius: 5px;
+  display: block;
+}
+.kbtn:hover {
+  background-color: #0c2d57;
+}
+.footer {
+  margin-top: 50px;
+  border-top: 2px black solid;
+}
+.foot {
+  padding: 20px;
+  display: flex;
+  margin-left: 200px;
+  flex-direction: column;
+}
+.h55 {
+  margin-left: 150px;
+}
